@@ -1,6 +1,6 @@
 {
   "name": "max_dark/useless-database",
-  "description": "Simple REST router",
+  "description": "Implemenattion for useless\\abstraction\\Storage",
   "minimum-stability": "stable",
   "version": "1.0",
   "license": "MIT",
