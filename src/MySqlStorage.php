@@ -170,6 +170,8 @@ class MySqlStorage implements Storage
         }
         if ($where) {
             $where = ' where ' . implode(' and ', $where);
+        } else {
+            $where = '';
         }
         return [
             $select . $where . $order . $limit,
