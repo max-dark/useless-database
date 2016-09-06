@@ -58,10 +58,6 @@ class DbResult implements Result
      */
     public function asArray()
     {
-        $result = [];
-        while ($model = $this->getOne()) {
-            $result[] = $model->getFields();
-        }
-        return $result;
+        return $this->data->fetchAll(\PDO::FETCH_ASSOC);
     }
 }
