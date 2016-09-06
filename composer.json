@@ -2,7 +2,7 @@
   "name": "max_dark/useless-database",
   "description": "Implementation for useless\\abstraction\\Storage",
   "minimum-stability": "stable",
-  "version": "1.1.2-dev",
+  "version": "1.1.2",
   "license": "MIT",
   "authors": [
     {
