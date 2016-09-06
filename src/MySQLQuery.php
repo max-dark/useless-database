@@ -85,10 +85,10 @@ class MySQLQuery implements QueryBuilder
         /** @noinspection SqlResolve */
         $select   = "select * from `{$this->getTableName()}`";
         $params   = [];
-        $order_by = '';
+        $order_by = [];
         $where    = [];
         $limit    = '';
-        $offset   = [];
+        $offset   = '';
         foreach ($rule as $name => $value) {
             switch ($name) {
                 case 'limit':
@@ -109,8 +109,10 @@ class MySQLQuery implements QueryBuilder
         $where    = $where ? ' where ' . implode(' and ', $where) : '';
         $order_by = $order_by ? ' order by ' . implode(', ', $order_by) : '';
 
+        $sql = $select . $where . $order_by . $limit . $offset;
+
         return [
-            $select . $where . $order_by . $limit . $offset,
+            $sql,
             $params
         ];
     }
