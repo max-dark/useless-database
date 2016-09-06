@@ -65,7 +65,7 @@ abstract class SqlStorage implements Storage
      */
     public function forModel($modelClass)
     {
-        if ( ! array_key_exists($modelClass, static::$instances)) {
+        if ( ! array_key_exists($modelClass, self::$instances)) {
             $instance                     = new static($this->tablePrefix, $this->pdo);
             $instance->modelClass         = $modelClass;
             $instance->tableName          = $this->tablePrefix . call_user_func([$modelClass, 'name']);
