@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "20a46434a27c5a697a5df0e329980358",
-    "content-hash": "018f277231231d69b477d142faeb475b",
+    "content-hash": "169239c8e9f10e77df2239c17a564e40",
     "packages": [
         {
             "name": "max_dark/useless-abstraction",
-            "version": "1.0.1",
+            "version": "1.1",
             "source": {
                 "type": "git",
-                "url": "https://bitbucket.org/max_dark/useless-abstraction.git",
-                "reference": "17558bb85fa1c9cc044468a976c243d054e38585"
+                "url": "https://github.com/max-dark/useless-abstraction.git",
+                "reference": "d613aa515b6aafcaa98ca460e5777312dc62f5ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/17558bb85fa1c9cc044468a976c243d054e38585.zip",
-                "reference": "17558bb85fa1c9cc044468a976c243d054e38585",
+                "url": "https://api.github.com/repos/max-dark/useless-abstraction/zipball/d613aa515b6aafcaa98ca460e5777312dc62f5ab",
+                "reference": "d613aa515b6aafcaa98ca460e5777312dc62f5ab",
                 "shasum": ""
             },
             "require": {
@@ -30,6 +29,7 @@
                     "useless\\abstraction\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -41,11 +41,7 @@
             ],
             "description": "useless\\abstraction library",
             "homepage": "https://bitbucket.org/max_dark/useless-abstraction",
-            "support": {
-                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/17558bb85fa1c9cc044468a976c243d054e38585/?at=1.0.1",
-                "issues": "https://bitbucket.org/max_dark/useless-abstraction/issues"
-            },
-            "time": "2016-09-02 07:53:49"
+            "time": "2017-06-13T15:48:57+00:00"
         }
     ],
     "packages-dev": [],

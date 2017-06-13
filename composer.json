@@ -2,7 +2,7 @@
   "name": "max_dark/useless-database",
   "description": "Implementation for useless\\abstraction\\Storage",
   "minimum-stability": "stable",
-  "version": "1.1.2.1",
+  "version": "1.2",
   "license": "MIT",
   "authors": [
     {
@@ -17,6 +17,6 @@
   },
   "require": {
     "php": ">=5.6.4",
-    "max_dark/useless-abstraction": "~1.0.0"
+    "max_dark/useless-abstraction": "^1.1"
   }
 }
